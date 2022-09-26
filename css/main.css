@@ -884,6 +884,7 @@ body {
 .container-tres .row100 .col #enviarCorreo {
   border: none;
   padding: 10px 40px;
+  margin: 40px 0px;
   cursor: pointer;
   outline: none;
   background: #fff;
