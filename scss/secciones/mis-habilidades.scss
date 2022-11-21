@@ -194,10 +194,11 @@ svg circle:nth-child(2) {
 .ohabilidades {
     text-align: center;
     padding: 2em;
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
-    color: #020122;
+    color: #2b296e;
     background: #fff;
+    
 }
 
 .otras-habilidades {
@@ -231,6 +232,7 @@ svg circle:nth-child(2) {
     transition-duration: .5s,0s,.5s;
     z-index: 2;
     transform: translate(-12px,-12px);
+    background: #000;
 }
 
 .card:hover .face.face1 {
@@ -243,13 +245,16 @@ svg circle:nth-child(2) {
 }
 
 .card .face.face2 {
-    background: #000911;
+    background: #00335f;
     top: 0;
     left: 0;
     transition-property: left, z-index, transform;
     transition-delay: 0s, .5s, .5s;
     transition-duration: .5s, 0s, .5s;
     z-index: 1;
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.23);
 }
 
 .card:hover .face.face2 {
@@ -274,9 +279,55 @@ svg circle:nth-child(2) {
         font-size: x-large;
     }
     p {
-        margin: 10px 0 0 ;
-        padding: 35px 0 0;
+        margin: 6px 18px 0 ;
+        padding: 8px 0 0;
         color: #fff;
-        text-align: justify;
+        text-align: center;
+    }
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    background: #020122;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 7rem;
+    &__web{
+        width: 500px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(15px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        border-radius: 10px;
+        &__caja{
+            padding: 3.5rem;
+            div{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin: 1rem;
+                p{
+                    color: #fff;
+                    padding-left: 3rem;
+                    font-size: 18px;
+                }
+                img{
+                    width: 60px;
+                }
+            }
+        }
+        h4{
+            font-family: 'Montserrat',sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 40px;
+        }  
     }
 }

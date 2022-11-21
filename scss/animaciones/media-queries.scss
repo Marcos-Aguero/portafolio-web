@@ -207,6 +207,17 @@
         min-height: 115vh;
     }
 
+    .skills{
+        display: flex;
+        flex-direction: column;
+        &__web{
+            width: 85%;
+            margin-bottom: 2.5rem;
+            h4{
+                font-size: 22px;
+            }
+        }
+    }
     footer {
         .menu {
             justify-content: space-around;

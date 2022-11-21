@@ -45,12 +45,14 @@
         font-family: 'Poppins', sans-serif;
         display: flex;
         align-items: center;
-        text-align: justify;
+        text-align: center;
         padding-left: 18rem;
         padding-right: 10rem;
         p {
             font-size: 2rem;
             font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 35px;
         } 
     }
 }

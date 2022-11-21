@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>mi sitio web</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
     <!-- Header -->
 
     <header>
@@ -46,7 +48,7 @@
                     <h1>Hola,<span></span></h1>
                     <h1>yo soy <span></span></h1>
                     <h1>El Marki <span></span></h1>
-                    <a href="#Portafolio" type="button" class="cta">Portafolio</a>
+                    <a href="#Portafolio" type="button" class="cta" >Portafolio</a>
                 </div>
             </div>
         </section>
@@ -55,12 +57,15 @@
         <!--seccion sobre mi-->
 
         <section class="seccion-dos" id="seccion-dos">
-            <h3 class="sobremi">Sobre Mi</h3>
+            <h3 class="sobremi" data-aos="zoom-in"
+     data-aos-duration="2800">Sobre Mi</h3>
             <div class="division1">
-                <div class="izquierda">
+                <div class="izquierda" data-aos="fade-up"
+     data-aos-duration="2800">
                     <p>Hola!! como estas? yo soy el Marki, soy desarrollador web y mi objetivo es crear diseños atractivos y tecnológicamente avanzados. Soy una persona proactiva y dinámica, dispuesto a solucionar problemas e imprevistos de manera autónoma y en equipo. Tengo una gran capacidad de organización, permitiendo responder las demandas de los clientes. Mi deseo es ayudar a los consumidores a conseguir sus objetivos publicitarios a traves de mis sitios web. </p>
                 </div>
-                <div class="derecha">
+                <div class="derecha" data-aos="fade-up"
+     data-aos-duration="2800">
                     <div class="bg"></div>
                     <div class="paper"></div>
                 </div>
@@ -72,6 +77,72 @@
 
         <!--habilidades en programacion-->
         <h3 class="habilidades" id="habilidades">Mis habilidades en programación</h3>
+
+
+        <section class="skills">
+            <div class="skills__web" data-aos="fade-up"
+     data-aos-duration="2800">
+                <h4>Desarrollo Web</h4>
+                <div class="skills__web__caja">
+                    <div>
+                        <img src="./img/iconos/html5.png" alt="">
+                        <p>Html5</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/css-3.png" alt="">
+                        <p>Css3</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/js.png" alt="">
+                        <p>Javascript (Básico)</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/sass.png" alt="">
+                        <p>Sass</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/git.png" alt="">
+                        <p>Git</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/github.png" alt="">
+                        <p>Github</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/bootstrap.png" alt="">
+                        <p>Bootstrap</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="skills__web" data-aos="fade-up"
+     data-aos-duration="2800">
+                <h4>Diseño y Herramientas</h4>
+                <div class="skills__web__caja">
+                    <div>
+                        <img src="./img/iconos/canva.png" alt="">
+                        <p>Canva</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/ai.png" alt="">
+                        <p>Adobe Ilustrator</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/vsc.png" alt="">
+                        <p>Visual Studio Code</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/ae.png" alt="">
+                        <p>Adobe After Effects</p>
+                    </div>
+                    <div>
+                        <img src="./img/iconos/overleaf.png" alt="">
+                        <p>Overleaf (editor LaTeX)</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--
         <section class="mis-habilidades">
             <div class="barra1"></div>
             <div class="barra2"></div>
@@ -178,12 +249,14 @@
                 </div>
             </div>
         </section>
+        -->
+
 
         <!--otras habilidades-->
 
         <h3 class="ohabilidades">Otras habilidades</h3>
         <section class="otras-habilidades">
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div class="face face1">
                     <img src="./img/piano.jpg" alt="pianito">
                 </div>
@@ -195,25 +268,25 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div class="face face1">
                     <img src="./img/Sonidiando2.jpg" alt="consola">
                 </div>
                 <div class="face face2">
                     <div class="content">
                         <h5> Técnico de Sonido</h5>
-                        <p class="descripcion"> Trabajo freelance como sonidista. Durante el año de 2018-2019 tuve el agrado de trabajar como sonidista en los teatros municipales de San Miguel, siendo responsable de la colocación de micrófonos, auriculares y otros elementos del equipo de sonido utilizados en la grabación y en eventos en vivo.</p>
+                        <p class="descripcion"> Trabajo freelance como sonidista. Durante el año de 2017-2019 tuve el agrado de trabajar como sonidista en los teatros municipales de San Miguel.</p>
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div class="face face1">
                     <img src="./img/untref.jpg" alt="universidad">
                 </div>
                 <div class="face face2">
                     <div class="content">
                         <h5> Estudiante de Ingenieria en Sonido </h5>
-                        <p class="descripcion">En 2019 comence esta maravillosa carrera, cada materia que aprendo en un nuevo mundo que se habre con espectaculares experiencias. Siempre inquieto y ávido de aprender, en busca de nuevos conocimientos que me permitan ayudar a los demás.</p>
+                        <p class="descripcion">En 2019 comence esta carrera. Siempre inquieto y ávido de aprender, en busca de nuevos conocimientos que me permitan ayudar a los demás.</p>
                     </div>
                 </div>
             </div>
@@ -226,7 +299,7 @@
         <h3 class="Portafolio" id="Portafolio">Portafolio</h3>
         <section class="portafolio-parte-dos">
             <div class="portafolio-dos">
-                <div class="carrdd">
+                <div class="carrdd" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="booxx">
                         <div class="imgBox">
                             <img src="./img/fotos de portafolio/candy store.jpg" alt="">
@@ -242,7 +315,7 @@
                     </div>
                 </div>
                 
-                <div class="carrdd">
+                <div class="carrdd" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="booxx">
                         <div class="imgBox">
                             <img src="./img/fotos de portafolio/colegio-genérico.jpg" alt="">
@@ -259,7 +332,7 @@
                     </div>
                 </div>
                 
-                <div class="carrdd">
+                <div class="carrdd" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="booxx">
                         <div class="imgBox">
                             <img src="./img/fotos de portafolio/fotos-op.jpg" alt="">
@@ -275,7 +348,7 @@
                     </div>
                 </div>
 
-                <div class="carrdd">
+                <div class="carrdd" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="booxx">
                         <div class="imgBox">
                             <img src="./img/fotos de portafolio/miniatura-real-state.jpg" alt="">
@@ -283,7 +356,7 @@
                         <div class="contenido-de-box">
                             <a href="https://example-real-state.netlify.app/" target="_blank">
                                 <div>
-                                    <h5>real-state</h5>
+                                    <h5>Real-State</h5>
                                     <p>Real state es una página sobre venta de viviendas en diferentes paises. Tome como inspiración el diseño de userinterfacedesignnig.</p>
                                 </div>
                             </a>
@@ -291,6 +364,23 @@
                     </div>
                 </div>
 
+                <div class="carrdd" data-aos="zoom-in" data-aos-duration="1500">
+                    <div class="booxx">
+                        <div class="imgBox">
+                            <img src="./img/fotos de portafolio/portada-medic.jpg" alt="pagina-med">
+                        </div>
+                        <div class="contenido-de-box">
+                            <a href="https://bd-health.netlify.app/" target="_blank">
+                                <div>
+                                    <h5>BD Health </h5>
+                                    <p>
+                                        Esta es una landing page pensada para consultorios médicos, es responsive en mobile y cuenta con varias secciones a conocer
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <!--
                 <div class="carrdd">
@@ -314,7 +404,7 @@
         <!--contacto-->
 
         <section class="contacto" id="contacto">
-            <div class="container-tres">
+            <div class="container-tres" data-aos="fade-up" data-aos-duration="1500">
                 <h5>Contacto</h5>
                 <form name="contact" method="POST" data-netlify="true">
                     <div class="row100">
@@ -403,6 +493,12 @@
     <!--animaciones scroll y icon amburguer-->
 
     <script src="./scripts/app.js"></script>
+
+    <!--animaciones-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
